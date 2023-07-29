@@ -1,0 +1,13 @@
+What is Sharding in MongoDB, and how does it work?
+
+To be very honest, I don't know what Sharding is before, 
+but after researching the documentation this is my understanding from it:
+
+
+So sharding can be thought of as distributed systems,
+The goal of distributed system is to make the application scalable and make it free from single point of failure,
+
+Same is true for sharding. 
+Sharding in MongoDB is basically a way to partion the data and store across multiple servers. The data is each server is limited to certain range. 
+
+

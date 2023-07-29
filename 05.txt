@@ -1,0 +1,16 @@
+What are Higher-Order Components (HOC) in React and how do they work?
+Ans: 
+
+So Higher order componet feature of react is somewhat similar to the layout feature of Nodejs
+In Nodejs we create a file layout.ejs and then instakk a package manage ejs layout, what it does is it basically let you use the layout file in multiple ejs file
+
+The same holds true for HOC, the difference here is, the componets are copied, 
+
+Ex: If I have to create a button and use it everywhere
+
+I will create a HOC of button
+
+then wherever I need the use of button, I will simply Import button from ./Button 
+
+and then use <Button> </Button> 
+the file Button will include all the code that will be executed. 

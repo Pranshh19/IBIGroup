@@ -1,0 +1,22 @@
+Cookies
+
+Cookies are sent to the server with each request, and they have smaller storage limit. 
+The main use of cookies is to store the data of user so that they don't have to log in at every page
+when traversing the page. 
+
+Ex: 
+Use of cookies in shopping cart to remember the item that we've added. 
+
+
+Session: 
+session is again a kind of storage, one can think of it as when you log in, a session is created, 
+that session time limit can be specifies in the server side, suppose if it's 1hr then after 1hr, the user will be automatically logged out. 
+
+Ex: PWSkiils website, the session limit is 24hr
+
+
+Local Storage: 
+Local storage is again a mechanism to store the data, this storage is saved locally even if the browsed is closed. 
+It can be used to store caching data. Generally data that is going to be reptetively used is cached for faster access. 
+
+
